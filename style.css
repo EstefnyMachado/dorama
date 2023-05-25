@@ -20,3 +20,20 @@
     margin: 0 16px;
     font-size: 24px;
 }
+
+.livro-imagem{
+    width: 25%;
+}
+
+.livros{
+    background-image: linear-gradient(#9937BC,#052F70);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.livros-div-conteudo{
+width: 35%;
+}
