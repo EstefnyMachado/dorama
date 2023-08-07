@@ -3,14 +3,19 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .cabecalho{
-    background-color: #9937BC;
+    background-color: #000;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
 }
+
 .cabecalho-imagem{
     width: 20%;
 }
@@ -21,12 +26,12 @@
     font-size: 24px;
 }
 
-.livro-imagem{
+.Dorama-imagem{
     width: 25%;
 }
 
-.livros{
-    background-image: linear-gradient(#9937BC,#052F70);
+.Dorama{
+    background-image: linear-gradient(#20254D, #BD1C60);
     color: white;
     display: flex;
     justify-content: center;
@@ -34,6 +39,38 @@
     padding: 24px 0;
 }
 
-.livros-div-conteudo{
-width: 35%;
+.Dorama-div-conteudo{
+    width: 35%;
+}
+
+.Dorama-titulo{
+    padding: 24px 0;
+}
+
+.Personagem-imagem{
+    width: 120px;
+}
+
+.Personagens-div{
+    text-align: center;
+}
+
+.Personagens-titulo{
+    text-align: center;
+    padding: 5% 0;
+}
+
+.Personagens-todos{
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17% 17%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
 }
